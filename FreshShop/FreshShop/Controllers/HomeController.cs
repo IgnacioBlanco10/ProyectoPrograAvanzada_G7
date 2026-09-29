@@ -58,5 +58,20 @@ namespace FreshShop.Controllers
         {
             return View("Contact-us");
         }
+
+        public ActionResult Login()
+        {
+            return View("login");
+        }
+
+        public ActionResult Register()
+        {
+            return View("register");
+        }
+
+        public ActionResult ForgotPassword()
+        {
+            return View("forgot-password");
+        }
     }
 }
