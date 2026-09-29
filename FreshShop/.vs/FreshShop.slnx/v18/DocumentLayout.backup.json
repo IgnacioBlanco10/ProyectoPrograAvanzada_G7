@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF36D422-F201-451F-ADDD-7615DF361C61}|FreshShop\\FreshShop.csproj|c:\\prograavanzada\\proyectoprograavanzada_g7\\freshshop\\freshshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF36D422-F201-451F-ADDD-7615DF361C61}|FreshShop\\FreshShop.csproj|solutionrelative:freshshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF36D422-F201-451F-ADDD-7615DF361C61}|FreshShop\\FreshShop.csproj|C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\freshshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF36D422-F201-451F-ADDD-7615DF361C61}|FreshShop\\FreshShop.csproj|solutionrelative:freshshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\FreshShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FreshShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\FreshShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FreshShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAkwE0BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T14:15:31.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\FreshShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FreshShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\prograAvanzada\\ProyectoPrograAvanzada_G7\\FreshShop\\FreshShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FreshShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T14:14:54.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
