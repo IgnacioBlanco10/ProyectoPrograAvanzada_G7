@@ -1,0 +1,906 @@
+﻿/* ============================================================
+   LA MILENITA
+   ESTILOS PERSONALIZADOS
+   ============================================================ */
+
+
+:root {
+    --milenita-rojo: #C62828;
+    --milenita-rojo-oscuro: #981F24;
+    --milenita-amarillo: #F5C400;
+    --milenita-amarillo-claro: #FFE36A;
+    --milenita-negro: #202020;
+    --milenita-crema: #FFF9E8;
+    --milenita-gris: #666666;
+    --milenita-blanco: #FFFFFF;
+}
+
+
+
+/* ============================================================
+   GENERAL
+   ============================================================ */
+
+body {
+    background-color: var(--milenita-blanco);
+    color: var(--milenita-negro);
+}
+
+
+
+/* ============================================================
+   BARRA SUPERIOR
+   ============================================================ */
+
+.milenita-topbar {
+    background-color: var(--milenita-rojo);
+    color: white;
+    padding: 11px 0;
+    font-size: 14px;
+}
+
+
+.milenita-topbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+    .topbar-left span {
+        color: white;
+    }
+
+
+    .topbar-left i {
+        color: var(--milenita-amarillo);
+        margin-right: 7px;
+    }
+
+
+.topbar-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+    .topbar-right a i {
+        color: var(--milenita-amarillo);
+        margin-right: 7px;
+    }
+
+
+    .topbar-right a:hover {
+        color: var(--milenita-amarillo);
+    }
+
+
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+
+.main-header {
+    background-color: white;
+}
+
+
+nav.navbar.bootsnav {
+    background-color: white !important;
+    border: none !important;
+}
+
+
+    nav.navbar.bootsnav ul.nav > li > a {
+        color: var(--milenita-negro) !important;
+        font-weight: 700;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+
+        nav.navbar.bootsnav ul.nav > li > a:hover {
+            color: var(--milenita-rojo) !important;
+        }
+
+
+    nav.navbar.bootsnav ul.nav > li.active > a {
+        color: var(--milenita-rojo) !important;
+    }
+
+
+
+/* ============================================================
+   LOGO
+   ============================================================ */
+
+.logo-milenita {
+    width: auto;
+    max-width: 190px;
+    max-height: 85px;
+}
+
+
+
+/* ============================================================
+   ICONOS DEL HEADER
+   ============================================================ */
+
+.attr-nav > ul > li > a {
+    color: var(--milenita-negro) !important;
+}
+
+
+    .attr-nav > ul > li > a:hover {
+        color: var(--milenita-rojo) !important;
+    }
+
+
+.attr-nav .badge {
+    background-color: var(--milenita-rojo) !important;
+    color: white !important;
+}
+
+
+
+/* ============================================================
+   BUSCADOR
+   ============================================================ */
+
+.top-search {
+    background-color: var(--milenita-rojo) !important;
+}
+
+
+    .top-search input {
+        color: white !important;
+    }
+
+
+        .top-search input::placeholder {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+
+    .top-search .input-group-addon {
+        color: var(--milenita-amarillo) !important;
+    }
+
+
+
+/* ============================================================
+   HERO
+   ============================================================ */
+
+.milenita-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    background: radial-gradient( circle at 85% 40%, rgba(255,255,255,0.40) 0%, rgba(255,255,255,0) 30% ), linear-gradient( 135deg, #FFD83D 0%, var(--milenita-amarillo) 100% );
+}
+
+
+.min-vh-75 {
+    min-height: 650px;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 5;
+}
+
+
+.hero-badge {
+    display: inline-block;
+    background-color: var(--milenita-rojo);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.hero-content h1 {
+    color: var(--milenita-negro);
+    font-size: 58px;
+    line-height: 1.05;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+
+    .hero-content h1 span {
+        display: block;
+        color: var(--milenita-rojo);
+    }
+
+
+.hero-content p {
+    color: #493E25;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+
+/* ============================================================
+   BOTONES
+   ============================================================ */
+
+.btn-milenita {
+    display: inline-block;
+    background-color: var(--milenita-rojo);
+    color: white !important;
+    border: 2px solid var(--milenita-rojo);
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+    .btn-milenita:hover {
+        background-color: var(--milenita-rojo-oscuro);
+        border-color: var(--milenita-rojo-oscuro);
+        transform: translateY(-3px);
+    }
+
+
+.btn-outline-milenita {
+    display: inline-block;
+    background: transparent;
+    color: var(--milenita-negro) !important;
+    border: 2px solid var(--milenita-negro);
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+    .btn-outline-milenita:hover {
+        background-color: var(--milenita-negro);
+        color: white !important;
+    }
+
+
+
+/* ============================================================
+   IMAGEN HERO
+   ============================================================ */
+
+.hero-image {
+    position: relative;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .hero-image img {
+        position: relative;
+        z-index: 3;
+        max-height: 480px;
+        filter: drop-shadow( 0 25px 20px rgba(0,0,0,0.25) );
+        transition: 0.4s;
+    }
+
+
+        .hero-image img:hover {
+            transform: rotate(-3deg) scale(1.05);
+        }
+
+
+.hero-circle {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+/* ============================================================
+   BENEFICIOS
+   ============================================================ */
+
+.milenita-beneficios {
+    background-color: white;
+    padding: 75px 0;
+}
+
+
+.beneficio-card {
+    padding: 30px 25px;
+    transition: 0.3s;
+}
+
+
+    .beneficio-card:hover {
+        transform: translateY(-5px);
+    }
+
+
+.beneficio-icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: var(--milenita-amarillo);
+    color: var(--milenita-rojo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+
+.beneficio-card h4 {
+    color: var(--milenita-negro);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+
+.beneficio-card p {
+    color: var(--milenita-gris);
+    line-height: 1.7;
+}
+
+
+
+/* ============================================================
+   PRODUCTOS
+   ============================================================ */
+
+.milenita-productos {
+    padding: 90px 0;
+    background-color: var(--milenita-crema);
+}
+
+
+.section-title {
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+
+    .section-title span {
+        color: var(--milenita-rojo);
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+
+    .section-title h2 {
+        color: var(--milenita-negro);
+        font-size: 42px;
+        font-weight: 900;
+        margin: 10px 0 12px;
+    }
+
+
+    .section-title p {
+        color: var(--milenita-gris);
+        font-size: 17px;
+    }
+
+
+.producto-card {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    transition: 0.35s;
+}
+
+
+    .producto-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 18px 45px rgba(0,0,0,0.15);
+    }
+
+
+.producto-destacado {
+    border: 3px solid var(--milenita-amarillo);
+}
+
+
+.producto-etiqueta {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 5;
+    background-color: var(--milenita-rojo);
+    color: white;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.producto-imagen {
+    height: 310px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient( circle, #FFED9A 0%, #FFD535 100% );
+}
+
+
+    .producto-imagen img {
+        max-width: 100%;
+        max-height: 250px;
+        transition: 0.4s;
+    }
+
+
+.producto-card:hover .producto-imagen img {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+
+.producto-info {
+    padding: 28px;
+}
+
+
+    .producto-info h3 {
+        color: var(--milenita-negro);
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+
+    .producto-info p {
+        color: var(--milenita-gris);
+        line-height: 1.6;
+    }
+
+
+.producto-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--milenita-rojo);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+    .producto-link:hover {
+        color: var(--milenita-rojo-oscuro);
+    }
+
+
+
+/* ============================================================
+   BANNER
+   ============================================================ */
+
+.milenita-banner {
+    background-color: white;
+    padding: 80px 0;
+}
+
+
+.banner-content {
+    padding: 55px;
+    border-radius: 24px;
+    overflow: hidden;
+    color: white;
+    background: linear-gradient( 135deg, var(--milenita-rojo), var(--milenita-rojo-oscuro) );
+}
+
+
+    .banner-content span {
+        color: var(--milenita-amarillo);
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+
+
+    .banner-content h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 15px 0;
+    }
+
+
+    .banner-content p {
+        color: white;
+        font-size: 17px;
+    }
+
+
+.btn-banner {
+    display: inline-block;
+    background-color: var(--milenita-amarillo);
+    color: var(--milenita-negro) !important;
+    margin-top: 15px;
+    padding: 13px 27px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.banner-product {
+    max-height: 300px;
+}
+
+
+
+/* ============================================================
+   NOSOTROS
+   ============================================================ */
+
+.milenita-nosotros {
+    background-color: var(--milenita-crema);
+    padding: 100px 0;
+}
+
+
+.nosotros-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+
+.nosotros-content span {
+    color: var(--milenita-rojo);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.nosotros-content h2 {
+    color: var(--milenita-negro);
+    font-size: 42px;
+    font-weight: 900;
+    margin: 12px 0 20px;
+}
+
+
+.nosotros-content p {
+    color: var(--milenita-gris);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+
+/* ============================================================
+   INSTAGRAM DEL INDEX
+   ============================================================ */
+
+.milenita-instagram {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+
+.milenita-instagram-box {
+    background: linear-gradient( 135deg, #C62828 0%, #981F24 100% );
+    min-height: 230px;
+    padding: 45px 55px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Información izquierda */
+
+.milenita-instagram-info {
+    color: white;
+}
+
+
+.milenita-instagram-icon {
+    display: block;
+    color: #F5C400 !important;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+
+.instagram-label {
+    display: block;
+    color: #F5C400 !important;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+
+.milenita-instagram-info h2 {
+    color: #ffffff !important;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0 12px;
+}
+
+
+.milenita-instagram-info p {
+    color: #ffffff !important;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    opacity: 0.9;
+}
+
+
+/* Botón */
+
+.btn-instagram-milenita {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #F5C400 !important;
+    color: #202020 !important;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+
+    .btn-instagram-milenita i {
+        color: #C62828 !important;
+        font-size: 18px;
+    }
+
+
+    .btn-instagram-milenita:hover {
+        background-color: #FFE36A !important;
+        color: #C62828 !important;
+        transform: translateY(-3px);
+    }
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .milenita-instagram-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 25px;
+    }
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.footer-milenita {
+    background-color: var(--milenita-negro);
+    color: #dddddd;
+    padding: 60px 0 40px;
+}
+
+
+.footer-logo {
+    max-width: 170px;
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+
+
+.footer-description {
+    color: #bdbdbd;
+    line-height: 1.7;
+    max-width: 300px;
+}
+
+
+.footer-milenita h4 {
+    color: var(--milenita-amarillo);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.footer-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+
+    .footer-links a,
+    .footer-milenita a {
+        color: #dddddd;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+
+        .footer-links a:hover,
+        .footer-milenita a:hover {
+            color: var(--milenita-amarillo);
+        }
+
+
+.footer-milenita i {
+    color: var(--milenita-amarillo);
+    margin-right: 8px;
+}
+
+
+
+/* ============================================================
+   COPYRIGHT
+   ============================================================ */
+
+.footer-copyright-milenita {
+    background-color: var(--milenita-rojo);
+    color: white;
+    text-align: center;
+    padding: 16px 10px;
+}
+
+
+    .footer-copyright-milenita p {
+        margin: 0;
+        color: white;
+    }
+
+
+
+.hvr-hover::after,
+.hvr-hover::before {
+    background-color: var(--milenita-rojo) !important;
+}
+
+
+.btn.hvr-hover {
+    background-color: var(--milenita-rojo) !important;
+    border-color: var(--milenita-rojo) !important;
+    color: white !important;
+}
+
+
+    .btn.hvr-hover:hover {
+        background-color: var(--milenita-rojo-oscuro) !important;
+    }
+
+
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li.active > a {
+    color: var(--milenita-rojo) !important;
+}
+
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 991px) {
+
+    .hero-content {
+        text-align: center;
+    }
+
+
+        .hero-content h1 {
+            font-size: 45px;
+        }
+
+
+        .hero-content p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+
+    .instagram-box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .milenita-topbar-content {
+        flex-direction: column;
+        gap: 7px;
+        text-align: center;
+    }
+
+
+    .topbar-left {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+    .logo-milenita {
+        max-width: 145px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+
+    .section-title h2,
+    .nosotros-content h2,
+    .banner-content h2 {
+        font-size: 31px;
+    }
+
+
+    .banner-content {
+        padding: 35px 25px;
+    }
+
+
+    .hero-circle {
+        width: 270px;
+        height: 270px;
+    }
+}
