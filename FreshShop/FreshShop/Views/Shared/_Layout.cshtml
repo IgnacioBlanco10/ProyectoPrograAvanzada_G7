@@ -226,7 +226,7 @@
 
                         <li>
 
-                            <a href="@Url.Action("MyAccount", "Home")">
+                            <a href="@Url.Action("Login", "Home")">
 
                                 <i class="fa fa-user"></i>
 
@@ -634,6 +634,21 @@
 
     <script src="~/js/custom.js"></script>
 
+    <script>
+        function togglePassword(fieldId, btn) {
+            var field = document.getElementById(fieldId);
+            var icon = btn.querySelector('i');
+            if (field.type === 'password') {
+                field.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                field.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+    </script>
 
 </body>
 
